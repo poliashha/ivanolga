@@ -184,7 +184,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding: 0 35px;
 }
 
 .conteiner_text {
@@ -507,10 +506,14 @@ body {
   content: "дней";
   position: absolute;
   top: 75px;
-  right: 8px;
+  right: 20px;
   font-size: 15px;
   font-family: var(--main-font);
   font-weight: 400;
+}
+
+.days{
+  width: 84px;
 }
 
 .hours::after {
