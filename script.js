@@ -166,7 +166,7 @@ document.body.addEventListener(
   { once: true },
 );
 
-const newYear = new Date(2026, 6, 14, 16, 0, 0).getTime();
+const newYear = new Date(2026, 7, 14, 16, 0, 0).getTime();
 startCountdown(newYear);
 
 const button = document.querySelector(".button");
